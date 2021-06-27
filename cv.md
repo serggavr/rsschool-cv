@@ -23,6 +23,7 @@ Contact us:&nbsp;&nbsp;![(email)](https://img.icons8.com/material-outlined/20/00
 + ![(HTML)](https://img.icons8.com/ios-glyphs/25/000000/html-5.png) HTML
 + ![(CSS)](https://img.icons8.com/material-outlined/25/000000/css.png) CSS
 + ![(JS)](https://img.icons8.com/windows/25/000000/js-squared.png) JS
++ ![(React)](https://img.icons8.com/ios/25/000000/react-native--v1.png) React
 + ![(NodeJS)](https://img.icons8.com/windows/25/000000/node-js.png) Node JS
 + ![(MySQL)](https://img.icons8.com/ios/25/000000/mysql-logo.png) MySQL
 + ![(Json)](https://img.icons8.com/ios/25/000000/json-download.png) Json
