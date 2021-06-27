@@ -1,7 +1,7 @@
 ## <center> G.Sergey</center> 
 
 ---
-Contact us:&nbsp;&nbsp;![(email)](https://img.icons8.com/material-outlined/20/000000/email-open.png)Coming soon &nbsp;&nbsp;![(email)](https://img.icons8.com/material-rounded/20/000000/telegram-app.png)[@gavrserg](https://t.me/gavrserg) &nbsp;&nbsp;![(linkedin)](https://img.icons8.com/material-rounded/20/000000/linkedin--v2.png)Coming soon &nbsp;&nbsp;![(facebook)](https://img.icons8.com/ios-glyphs/20/000000/facebook-new.png)Coming soon
+Contact us:&nbsp;&nbsp;![(email)](https://img.icons8.com/material-outlined/20/000000/email-open.png)*Coming soon* &nbsp;&nbsp;![(email)](https://img.icons8.com/material-rounded/20/000000/telegram-app.png)[@gavrserg](https://t.me/gavrserg) &nbsp;&nbsp;![(linkedin)](https://img.icons8.com/material-rounded/20/000000/linkedin--v2.png)*Coming soon* &nbsp;&nbsp;![(facebook)](https://img.icons8.com/ios-glyphs/20/000000/facebook-new.png)*Coming soon*
 
 ---
 #### Currently:
