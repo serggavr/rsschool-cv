@@ -19,7 +19,7 @@ Contact us:&nbsp;&nbsp;![(email)](https://img.icons8.com/material-outlined/20/00
 + A2
 + *In the learning process. Will rise.*
 
-#### The programming languages ​​and technologies I use (click to see example (*Coming soon*)):
+#### The programming languages ​​and technologies I use (click to see example (*Coming soon...*)):
 + ![(HTML)](https://img.icons8.com/ios-glyphs/25/000000/html-5.png) HTML
 + ![(CSS)](https://img.icons8.com/material-outlined/25/000000/css.png) CSS
 + ![(JS)](https://img.icons8.com/windows/25/000000/js-squared.png) JS
