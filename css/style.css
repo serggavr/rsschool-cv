@@ -56,6 +56,14 @@ h1 {
   font-size: 265%;
 }
 
+> h3 {
+  display: none;
+}
+
+.aboutme > h3 {
+  visibility: hidden;
+}
+
 .aboutme {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -270,6 +278,10 @@ footer {
       -ms-flex-direction: row;
           flex-direction: row;
   margin: 2px;
+}
+
+.footer_links h3 {
+  display: none;
 }
 
 .mygit_link {
