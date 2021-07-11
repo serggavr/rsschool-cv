@@ -281,7 +281,11 @@ footer {
 }
 
 .footer_links h3 {
+<<<<<<< HEAD
+  display: none;
+=======
   visibility: hidden;
+>>>>>>> gh-pages
 }
 
 .mygit_link {
