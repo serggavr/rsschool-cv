@@ -1,0 +1,78 @@
+
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,500);
+@import url(https://fonts.googleapis.com/css?family=Forum:regular);
+
+* {
+  /* padding: 0; */
+    border: 1px solid red
+}
+/*
+H4 - 28px
+H3 - 32px
+H2 - 80px
+H1 - 80px
+/* Позиционирование */
+/* Блочная модель */
+/* Типографика */
+/* Оформление */
+/* Анимация */
+/* Разное */
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+  align-items:center; */
+  /* background-color: #030303; */
+    // padding: 0 240px 0 240px;
+}
+.header_wrapper {
+    display: flex;
+    flex-direction: row;
+  /* justify-content: space-between; */
+    max-width: 1920px;
+    max-height: 200px;
+
+    margin: 0 240px 0 240px;
+    min-width: 100%;
+}
+.header_logo_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    margin-top: 74px;
+    margin-bottom: 76px;
+    // margin-left: 240px;
+    .logo_image_wrapper {
+        margin: 0;
+    }
+    .logo_name_wrapper {
+        margin: 0;
+    }
+}
+.header_navigation_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    margin-top: 74px;
+    // margin-right: 240px;
+    margin-bottom: 76px;
+}
+.header_navigation {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+}
+.header_navigation_element {
+    list-style-type: none;
+    margin: 0 76px 0 0;
+}
