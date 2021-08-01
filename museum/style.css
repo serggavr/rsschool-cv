@@ -32,7 +32,7 @@ li {
   list-style: none;
 }
 
-.section, .section-title, .section-title-dark, header .logotip.title, .container_virtual-tour .virtual-tour.tiles .tile .title, footer .container .title {
+.section, .section-title, .section-title-dark, header .logotip.title, .container_virtual-tour .virtual-tour .tile .title, footer .container .title {
   font-family: Forum;
   font-style: normal;
   font-weight: normal;
@@ -50,7 +50,7 @@ li {
   color: #FFFFFF;
 }
 
-.section-text, .section-text-welcome, header .navigation nav ul li a, .container_virtual-tour .virtual-tour.tiles .tile .pre-title, .container_virtual-tour .virtual-tour.tiles .tile .text, .container_picture-explore .text, .video-journey.discription .text, .container_buy-tickets .wrapper .buy-tickets.form .ticket_type_colum .ticket_type, .container_buy-tickets .wrapper .buy-tickets.form .amount_colum .ticket_type, .container_buy-tickets .wrapper .buy-tickets.form p, .container_buy-tickets .wrapper .amount_colum .ticket_value_label, .container_buy-tickets .wrapper .amount_colum .ticket_value_wrapper, .container_buy-tickets .wrapper .amount_colum .ticket_value .ticket_value_button, .container_buy-tickets .wrapper .amount_colum .ticket_total_label, .container_buy-tickets .wrapper .amount_colum .ticket_total .total, .container_buy-tickets .wrapper .amount_colum .ticket_total .buy_ticket_button .button_text, .container_contacts .discription .contacts, .container_contacts .discription .contects.name, footer .container .navigation nav ul li a {
+.section-text, .section-text-welcome, header .navigation nav ul li a, .container_virtual-tour .virtual-tour .tile .pre-title, .container_virtual-tour .virtual-tour .tile .text, .container_picture-explore .text, .video-journey.discription .text, .container_buy-tickets .wrapper .buy-tickets.form .ticket_type_colum .ticket_type, .container_buy-tickets .wrapper .buy-tickets.form .amount_colum .ticket_type, .container_buy-tickets .wrapper .buy-tickets.form p, .container_buy-tickets .wrapper .amount_colum .ticket_value_label, .container_buy-tickets .wrapper .amount_colum .ticket_value_wrapper, .container_buy-tickets .wrapper .amount_colum .ticket_value .ticket_value_button, .container_buy-tickets .wrapper .amount_colum .ticket_total_label, .container_buy-tickets .wrapper .amount_colum .ticket_total .total, .container_buy-tickets .wrapper .amount_colum .ticket_total .buy_ticket_button .button_text, .container_contacts .discription .contacts, .container_contacts .discription .contects.name, footer .container .navigation nav ul li a {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -142,17 +142,17 @@ header .navigation nav ul li a:active {
   color: #9D8665;
 }
 
-main .section .container, main .section-title .container, main .section-title-dark .container, main header .logotip.title .container, header main .logotip.title .container, main .container_virtual-tour .virtual-tour.tiles .tile .title .container, .container_virtual-tour .virtual-tour.tiles .tile main .title .container, main footer .container .title .container, footer .container main .title .container {
+main .section .container, main .section-title .container, main .section-title-dark .container, main header .logotip.title .container, header main .logotip.title .container, main .container_virtual-tour .virtual-tour .tile .title .container, .container_virtual-tour .virtual-tour .tile main .title .container, main footer .container .title .container, footer .container main .title .container {
   margin: 0 auto;
   max-width: 1440px;
   padding: 75px 0 75px 0;
 }
 
-main .section.welcome, main .welcome.section-title, main .welcome.section-title-dark, main header .welcome.logotip.title, header main .welcome.logotip.title, main .container_virtual-tour .virtual-tour.tiles .tile .welcome.title, .container_virtual-tour .virtual-tour.tiles .tile main .welcome.title, main footer .container .welcome.title, footer .container main .welcome.title, main .section.picture-explore, main .picture-explore.section-title, main .picture-explore.section-title-dark, main header .picture-explore.logotip.title, header main .picture-explore.logotip.title, main .container_virtual-tour .virtual-tour.tiles .tile .picture-explore.title, .container_virtual-tour .virtual-tour.tiles .tile main .picture-explore.title, main footer .container .picture-explore.title, footer .container main .picture-explore.title, main .section.buy-tickets, main .buy-tickets.section-title, main .buy-tickets.section-title-dark, main header .buy-tickets.logotip.title, header main .buy-tickets.logotip.title, main .container_virtual-tour .virtual-tour.tiles .tile .buy-tickets.title, .container_virtual-tour .virtual-tour.tiles .tile main .buy-tickets.title, main footer .container .buy-tickets.title, footer .container main .buy-tickets.title {
+main .section.welcome, main .welcome.section-title, main .welcome.section-title-dark, main header .welcome.logotip.title, header main .welcome.logotip.title, main .container_virtual-tour .virtual-tour .tile .welcome.title, .container_virtual-tour .virtual-tour .tile main .welcome.title, main footer .container .welcome.title, footer .container main .welcome.title, main .section.picture-explore, main .picture-explore.section-title, main .picture-explore.section-title-dark, main header .picture-explore.logotip.title, header main .picture-explore.logotip.title, main .container_virtual-tour .virtual-tour .tile .picture-explore.title, .container_virtual-tour .virtual-tour .tile main .picture-explore.title, main footer .container .picture-explore.title, footer .container main .picture-explore.title, main .section.buy-tickets, main .buy-tickets.section-title, main .buy-tickets.section-title-dark, main header .buy-tickets.logotip.title, header main .buy-tickets.logotip.title, main .container_virtual-tour .virtual-tour .tile .buy-tickets.title, .container_virtual-tour .virtual-tour .tile main .buy-tickets.title, main footer .container .buy-tickets.title, footer .container main .buy-tickets.title {
   background-color: var(--bg-dark);
 }
 
-main .section.video-journey, main .video-journey.section-title, main .video-journey.section-title-dark, main header .video-journey.logotip.title, header main .video-journey.logotip.title, main .container_virtual-tour .virtual-tour.tiles .tile .video-journey.title, .container_virtual-tour .virtual-tour.tiles .tile main .video-journey.title, main footer .container .video-journey.title, footer .container main .video-journey.title {
+main .section.video-journey, main .video-journey.section-title, main .video-journey.section-title-dark, main header .video-journey.logotip.title, header main .video-journey.logotip.title, main .container_virtual-tour .virtual-tour .tile .video-journey.title, .container_virtual-tour .virtual-tour .tile main .video-journey.title, main footer .container .video-journey.title, footer .container main .video-journey.title {
   padding-top: 15px;
 }
 
@@ -183,6 +183,7 @@ main .section.video-journey, main .video-journey.section-title, main .video-jour
   top: 629px;
   background: #710707;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .container_welcome .button button:hover {
@@ -225,15 +226,29 @@ main .section.video-journey, main .video-journey.section-title, main .video-jour
   gap: 77px 60px;
 }
 
-.container_virtual-tour .virtual-tour.tiles .tile a :hover {
+.container_virtual-tour .virtual-tour .tile:hover .title::after {
+  width: 100%;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.container_virtual-tour .virtual-tour .tile:not(:hover) .title::after {
+  width: 60%;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.container_virtual-tour .virtual-tour .tile a :hover {
   color: #9D8665;
 }
 
-.container_virtual-tour .virtual-tour.tiles .tile a :active {
+.container_virtual-tour .virtual-tour .tile a :active {
   color: #9D8665;
 }
 
-.container_virtual-tour .virtual-tour.tiles .tile .title {
+.container_virtual-tour .virtual-tour .tile .title {
   margin-top: 25px;
   font-size: var(--font-32);
   line-height: 35px;
@@ -243,24 +258,24 @@ main .section.video-journey, main .video-journey.section-title, main .video-jour
   position: relative;
 }
 
-.container_virtual-tour .virtual-tour.tiles .tile .title::after {
+.container_virtual-tour .virtual-tour .tile .title::after {
   content: "";
   position: absolute;
   bottom: -9px;
   left: 0;
   right: 0;
-  height: 3px;
+  height: 2px;
   background-color: #710707;
 }
 
-.container_virtual-tour .virtual-tour.tiles .tile .pre-title, .container_virtual-tour .virtual-tour.tiles .tile .text {
+.container_virtual-tour .virtual-tour .tile .pre-title, .container_virtual-tour .virtual-tour .tile .text {
   font-size: var(--font-21);
   color: #000000;
   margin-top: 21px;
   line-height: 25px;
 }
 
-.container_virtual-tour .virtual-tour.tiles .tile .text {
+.container_virtual-tour .virtual-tour .tile .text {
   margin-top: 11px;
   line-height: 20px;
 }
@@ -608,6 +623,7 @@ main .section.video-journey, main .video-journey.section-title, main .video-jour
   text-align: center;
   letter-spacing: 2px;
   color: #000000;
+  cursor: pointer;
 }
 
 .container_contacts .section-title, .container_contacts .section-title-dark {
@@ -747,12 +763,27 @@ footer .container .links {
 footer .container .links a {
   width: 48px;
   height: 48px;
-  border: 1px solid #666666;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-filter: drop-shadow(0px 0px 0px #666666);
           filter: drop-shadow(0px 0px 0px #666666);
   border-radius: 50%;
+}
+
+footer .container .links a:hover {
+  background-color: #9D8665;
+  border: 1px solid #9D8665;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer .container .links a:not(:hover) {
+  background-color: #030303;
+  border: 1px solid #666666;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
 
 footer .container .links a img {
