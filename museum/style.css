@@ -160,7 +160,7 @@ main .section.video-journey, main .video-journey.section-title, main .video-jour
   margin: 0 auto;
   max-width: 1920px;
   min-height: 750px;
-  background: url(/museum/assets/img/1_background.png) no-repeat;
+  background: url(assets/img/1_background.png) no-repeat;
   background-position: calc(100%) calc(100% - 1px);
 }
 
