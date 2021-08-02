@@ -165,18 +165,16 @@ main {
         background: #710707;
         border-radius: 10px;
         cursor: pointer;
+        font-size: var(--font-21);
+          line-height: 25px;
+          text-align: center;
+          letter-spacing: 2px;
+          color: #FFFFFF;
         &:hover {
           background: #9D8665;
         }
         &:active {
           background: #9D8665;
-        }
-        p {
-          font-size: var(--font-21);
-          line-height: 25px;
-          text-align: center;
-          letter-spacing: 2px;
-          color: #FFFFFF;
         }
       }
     }
