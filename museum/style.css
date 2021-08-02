@@ -50,7 +50,7 @@ li {
   color: #FFFFFF;
 }
 
-.section-text, .section-text-welcome, header .navigation nav ul li a, .container_virtual-tour .virtual-tour .tile .pre-title, .container_virtual-tour .virtual-tour .tile .text, .container_picture-explore .text, .video-journey.discription .text, .container_buy-tickets .wrapper .buy-tickets.form .ticket_type_colum .ticket_type, .container_buy-tickets .wrapper .buy-tickets.form .amount_colum .ticket_type, .container_buy-tickets .wrapper .buy-tickets.form p, .container_buy-tickets .wrapper .amount_colum .ticket_value_label, .container_buy-tickets .wrapper .amount_colum .ticket_value_wrapper, .container_buy-tickets .wrapper .amount_colum .ticket_value .ticket_value_button, .container_buy-tickets .wrapper .amount_colum .ticket_total_label, .container_buy-tickets .wrapper .amount_colum .ticket_total .total, .container_buy-tickets .wrapper .amount_colum .ticket_total .buy_ticket_button.button_text, .container_contacts .discription .contacts, .container_contacts .discription .contects.name, footer .container .navigation nav ul li a {
+.section-text, .section-text-welcome, header .navigation nav ul li a, .container_virtual-tour .virtual-tour .tile .pre-title, .container_virtual-tour .virtual-tour .tile .text, .container_picture-explore .text, .video-journey.discription .text, .container_buy-tickets .wrapper .buy-tickets.form .ticket_type_colum .ticket_type, .container_buy-tickets .wrapper .buy-tickets.form .amount_colum .ticket_type, .container_buy-tickets .wrapper .buy-tickets.form p, .container_buy-tickets .wrapper .amount_colum .ticket_value_label, .container_buy-tickets .wrapper .amount_colum .ticket_value_wrapper, .container_buy-tickets .wrapper .amount_colum .ticket_value .ticket_value_button, .container_buy-tickets .wrapper .amount_colum .ticket_total_label, .container_buy-tickets .wrapper .amount_colum .ticket_total .total, .container_buy-tickets .wrapper .amount_colum .buy_ticket_button.button_text, .container_contacts .discription .contacts, .container_contacts .discription .contects.name, footer .container .navigation nav ul li a {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -576,10 +576,10 @@ main .section.video-journey, main .video-journey.section-title, main .video-jour
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
@@ -602,17 +602,17 @@ main .section.video-journey, main .video-journey.section-title, main .video-jour
   max-width: max-content;
 }
 
-.container_buy-tickets .wrapper .amount_colum .ticket_total .buy_ticket_button {
+.container_buy-tickets .wrapper .amount_colum .buy_ticket_button {
   background: #FFFFFF;
   border-radius: 2px;
-  margin-top: 62px;
+  margin-top: 51px;
 }
 
-.container_buy-tickets .wrapper .amount_colum .ticket_total .buy_ticket_button:hover {
+.container_buy-tickets .wrapper .amount_colum .buy_ticket_button:hover {
   background: #9D8665;
 }
 
-.container_buy-tickets .wrapper .amount_colum .ticket_total .buy_ticket_button.button_text {
+.container_buy-tickets .wrapper .amount_colum .buy_ticket_button.button_text {
   padding: 11px 38px 13px 37px;
   font-size: var(--font-22);
   line-height: 26px;
