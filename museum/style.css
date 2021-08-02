@@ -50,7 +50,7 @@ li {
   color: #FFFFFF;
 }
 
-.section-text, .section-text-welcome, header .navigation nav ul li a, .container_virtual-tour .virtual-tour .tile .pre-title, .container_virtual-tour .virtual-tour .tile .text, .container_picture-explore .text, .video-journey.discription .text, .container_buy-tickets .wrapper .buy-tickets.form .ticket_type_colum .ticket_type, .container_buy-tickets .wrapper .buy-tickets.form .amount_colum .ticket_type, .container_buy-tickets .wrapper .buy-tickets.form p, .container_buy-tickets .wrapper .amount_colum .ticket_value_label, .container_buy-tickets .wrapper .amount_colum .ticket_value_wrapper, .container_buy-tickets .wrapper .amount_colum .ticket_value .ticket_value_button, .container_buy-tickets .wrapper .amount_colum .ticket_total_label, .container_buy-tickets .wrapper .amount_colum .ticket_total .total, .container_buy-tickets .wrapper .amount_colum .ticket_total .buy_ticket_button .button_text, .container_contacts .discription .contacts, .container_contacts .discription .contects.name, footer .container .navigation nav ul li a {
+.section-text, .section-text-welcome, header .navigation nav ul li a, .container_virtual-tour .virtual-tour .tile .pre-title, .container_virtual-tour .virtual-tour .tile .text, .container_picture-explore .text, .video-journey.discription .text, .container_buy-tickets .wrapper .buy-tickets.form .ticket_type_colum .ticket_type, .container_buy-tickets .wrapper .buy-tickets.form .amount_colum .ticket_type, .container_buy-tickets .wrapper .buy-tickets.form p, .container_buy-tickets .wrapper .amount_colum .ticket_value_label, .container_buy-tickets .wrapper .amount_colum .ticket_value_wrapper, .container_buy-tickets .wrapper .amount_colum .ticket_value .ticket_value_button, .container_buy-tickets .wrapper .amount_colum .ticket_total_label, .container_buy-tickets .wrapper .amount_colum .ticket_total .total, .container_buy-tickets .wrapper .amount_colum .ticket_total .buy_ticket_button.button_text, .container_contacts .discription .contacts, .container_contacts .discription .contects.name, footer .container .navigation nav ul li a {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -94,7 +94,7 @@ header .logotip {
 header .logotip.image {
   min-width: 50px;
   min-height: 34px;
-  background-image: url(/museum/assets/svg/logo.svg);
+  background-image: url(assets/svg/logo.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -160,7 +160,7 @@ main .section.video-journey, main .video-journey.section-title, main .video-jour
   margin: 0 auto;
   max-width: 1920px;
   min-height: 750px;
-  background: url(/museum/assets/img/1_background.png) no-repeat;
+  background: url(assets/img/1_background.png) no-repeat;
   background-position: calc(100%) calc(100% - 1px);
 }
 
@@ -612,7 +612,7 @@ main .section.video-journey, main .video-journey.section-title, main .video-jour
   background: #9D8665;
 }
 
-.container_buy-tickets .wrapper .amount_colum .ticket_total .buy_ticket_button .button_text {
+.container_buy-tickets .wrapper .amount_colum .ticket_total .buy_ticket_button.button_text {
   padding: 11px 38px 13px 37px;
   font-size: var(--font-22);
   line-height: 26px;
