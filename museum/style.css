@@ -94,7 +94,7 @@ header .logotip {
 header .logotip.image {
   min-width: 50px;
   min-height: 34px;
-  background-image: url(/museum/assets/svg/logo.svg);
+  background-image: url(assets/svg/logo.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
