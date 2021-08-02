@@ -585,6 +585,7 @@ main .section.video-journey, main .video-journey.section-title, main .video-jour
           align-items: flex-end;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  margin-top: 20px;
 }
 
 .container_buy-tickets .wrapper .amount_colum .ticket_total_label, .container_buy-tickets .wrapper .amount_colum .ticket_total .total {
@@ -605,7 +606,7 @@ main .section.video-journey, main .video-journey.section-title, main .video-jour
 .container_buy-tickets .wrapper .amount_colum .buy_ticket_button {
   background: #FFFFFF;
   border-radius: 2px;
-  margin-top: 51px;
+  margin-top: 50px;
 }
 
 .container_buy-tickets .wrapper .amount_colum .buy_ticket_button:hover {

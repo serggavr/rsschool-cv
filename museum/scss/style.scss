@@ -476,6 +476,7 @@ main {
         flex-direction: row;
         align-items:flex-end;
         flex-wrap: nowrap;
+        margin-top: 20px;
         &_label, .total{
           @extend .section-text;
           font-size: var(--font-28);
@@ -493,7 +494,7 @@ main {
       .buy_ticket_button {
         background: #FFFFFF;
         border-radius: 2px;
-        margin-top: 51px;
+        margin-top: 50px;
         &:hover {
           background: #9D8665;
         }
