@@ -10,6 +10,10 @@ body {
   overflow: hidden;
 }
 
+h2 {
+  font-size: 60px;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -63,7 +67,7 @@ body {
 }
 
 .sidebar .step.takeError h2 {
-  font-size: 60px;
+  font-size: 120px;
   -webkit-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
           transform: rotate(-90deg);
@@ -132,21 +136,21 @@ body {
 }
 
 .slider .slide.write {
-  background-image: url(/img/1.jpeg);
+  background-image: url(img/1.jpeg);
   height: 100vh;
 }
 
 .slider .slide.run {
-  background-image: url(/img/2.jpeg);
+  background-image: url(img/2.jpeg);
   height: 100vh;
 }
 
 .slider .slide.take {
-  background-image: url(/img/3.jpeg);
+  background-image: url(img/3.jpeg);
   height: 100vh;
 }
 
 .slider .slide.fix {
-  background-image: url(/img/4.jpeg);
+  background-image: url(img/4.jpeg);
   height: 100vh;
 }

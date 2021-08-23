@@ -10,6 +10,10 @@ body {
     overflow: hidden;
 
 }
+
+h2 {
+    font-size: 60px;
+}
 .container {
     display: flex;
     flex-direction: row;
@@ -40,7 +44,7 @@ body {
         &.takeError {
             background-color: red;
             h2 {
-                font-size: 60px;
+                font-size: 120px;
                 transform: rotate(-90deg);
             }
         }
@@ -95,19 +99,19 @@ body {
         width: 100%;
         background-size: cover;
         &.write {
-            background-image: url(/img/1.jpeg);
+            background-image: url(img/1.jpeg);
             height: 100vh;
         }
         &.run {
-            background-image: url(/img/2.jpeg);
+            background-image: url(img/2.jpeg);
             height: 100vh;
         }
         &.take {
-            background-image: url(/img/3.jpeg);
+            background-image: url(img/3.jpeg);
             height: 100vh;
         }
         &.fix {
-            background-image: url(/img/4.jpeg);
+            background-image: url(img/4.jpeg);
             height: 100vh;
         }
     }
