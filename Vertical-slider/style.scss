@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.sidebar {
+    height: 100%;
+    width: 25%;
+    position: absolute;
+    // top: -300vh;
+    // top: 0;
+    // left: 0;
+    // overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+    .step {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+
+        &.writeCode {
+            background-color: aqua;
+        }
+        &.firstRun {
+            background-color: yellow;
+        }
+        &.takeError {
+            background-color: red;
+            h2 {
+                font-size: 60px;
+                transform: rotate(-90deg);
+            }
+        }
+        &.fixIt {
+            background-color: green;
+        }
+
+    }
+}
+.controls {
+    position: absolute;
+    left: 25%;
+    top: 65%;
+    z-index: 100;
+    // height: 100vh;
+    // background-color: red;
+    button {
+        background-color: #fff;
+        border: 0;
+        color: #aaa;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 15px;
+        &.up {
+            transform: translateX(-209%);
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        &.down{
+            transform: translateY(-100%);
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        &:hover {
+            color: #222;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+}
+.slider {
+    height: 100%;
+    position: absolute;
+    // top: 0;
+    left: 25%;
+    width: 75%;
+    // overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+    .slide {
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        &.write {
+            background-image: url(/img/1.jpeg);
+            height: 100vh;
+        }
+        &.run {
+            background-image: url(/img/2.jpeg);
+            height: 100vh;
+        }
+        &.take {
+            background-image: url(/img/3.jpeg);
+            height: 100vh;
+        }
+        &.fix {
+            background-image: url(/img/4.jpeg);
+            height: 100vh;
+        }
+    }
+
+}
