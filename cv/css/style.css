@@ -41,8 +41,6 @@ header {
   max-width: 1440px;
   min-height: 1vh;
   background: -webkit-gradient(linear, right top, left top, from(#84a9bd), color-stop(30%), to(white));
-  background: -webkit-linear-gradient(right, #84a9bd, 30%, white);
-  background: -o-linear-gradient(right, #84a9bd, 30%, white);
   background: linear-gradient(to left, #84a9bd, 30%, white);
 }
 
@@ -68,8 +66,6 @@ aside {
   width: 45vw;
   min-width: 200px;
   background: -webkit-gradient(linear, left top, left bottom, from(#84a9bd), color-stop(20%), to(white));
-  background: -webkit-linear-gradient(#84a9bd, 20%, white);
-  background: -o-linear-gradient(#84a9bd, 20%, white);
   background: linear-gradient(#84a9bd, 20%, white);
 }
 
@@ -128,8 +124,6 @@ aside div li img {
 
 div.aboutme {
   background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(80%), to(#84a9bd));
-  background: -webkit-linear-gradient(white, 80%, #84a9bd);
-  background: -o-linear-gradient(white, 80%, #84a9bd);
   background: linear-gradient(white, 80%, #84a9bd);
 }
 
@@ -189,7 +183,6 @@ div.aboutme div.wrapper h3 span {
   display: inline-block;
   color: white;
   -webkit-transform: rotate(7deg);
-      -ms-transform: rotate(7deg);
           transform: rotate(7deg);
   text-shadow: 1px 1px 2px #84a9bd, -1px -1px 2px #84a9bd;
 }
@@ -246,8 +239,6 @@ footer {
   max-width: 1440px;
   border-radius: 33px 0 0 33px;
   background: -webkit-gradient(linear, right top, left top, from(#84a9bd), color-stop(70%), to(white));
-  background: -webkit-linear-gradient(right, #84a9bd, 70%, white);
-  background: -o-linear-gradient(right, #84a9bd, 70%, white);
   background: linear-gradient(to left, #84a9bd, 70%, white);
 }
 
@@ -262,7 +253,6 @@ footer div {
 footer img.rsschool_link {
   position: absolute;
   -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
           transform: rotate(-90deg);
   height: 15px;
   bottom: -7px;
@@ -309,8 +299,6 @@ aside div.contacts li {
     padding-top: 1vw;
     margin-left: 1vw;
     background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(71%), to(#84a9bd));
-    background: -webkit-linear-gradient(white, 71%, #84a9bd);
-    background: -o-linear-gradient(white, 71%, #84a9bd);
     background: linear-gradient(white, 71%, #84a9bd);
   }
   aside ul {
