@@ -30,7 +30,7 @@ body {
 header {
     display: flex;
     flex-grow: 0;
-    width: 80vw;;
+    width: 81vw;;
     max-width: 1440px;
     min-height: 1vh; //TODO
     background: linear-gradient(to left, $firstcollor, 30%, white);
@@ -180,7 +180,7 @@ footer {
     align-items:center;
     flex-wrap: nowrap;
     flex-grow: 0;
-    width: 81vw;
+    width: 80vw;
     max-width: 1440px;
     border-radius: 33px 0 0 33px;
     background: linear-gradient(to left, $firstcollor, 70%, white);
@@ -267,6 +267,7 @@ aside div.contacts {
             width: 20vw;
             height: 20vw;
             border-radius: 50%;
+            box-shadow: $shadow;
         }
 
         div.position {
@@ -288,12 +289,19 @@ aside div.contacts {
     }
 }
 @media (max-width: 580px) {
-    aside {
-        ul {
-            justify-content: center;
+    aside ul {
+            justify-content: space-around;
             li {
-                width: 250px;
+                width: 181px;
+                a {
+                    width: 110px;
+                    text-align: start;
+                }
             }
-        }
+    }
+}
+@media (max-width: 382px) {
+    aside div.contacts li {
+        justify-content: center;
     }
 }
