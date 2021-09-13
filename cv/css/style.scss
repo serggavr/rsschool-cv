@@ -100,6 +100,7 @@ aside {
 
 div.aboutme {
     background: linear-gradient($secondcollor, 80%, $firstcollor );
+    padding-bottom: 5vw;
     div.wrapper {
         position: relative;
         margin-left: 1vw;
@@ -167,8 +168,7 @@ div.aboutme {
             box-shadow: $shadow;
             }
         section:last-child {
-            margin-bottom: 1vw;
-            padding-bottom: 1vw;
+            padding-bottom: 2vw;
             }
         }
         section.projects {

@@ -126,6 +126,7 @@ aside div li img {
 div.aboutme {
   background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(80%), to(#84a9bd));
   background: linear-gradient(white, 80%, #84a9bd);
+  padding-bottom: 5vw;
 }
 
 div.aboutme div.wrapper {
@@ -214,8 +215,7 @@ div.aboutme div.wrapper div.code_wrapper {
 }
 
 div.aboutme div.wrapper section:last-child {
-  margin-bottom: 1vw;
-  padding-bottom: 1vw;
+  padding-bottom: 2vw;
 }
 
 div.aboutme section.projects div.tiles {
