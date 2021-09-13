@@ -12,6 +12,7 @@ h1, h2, h3 {
 ul {
   -webkit-padding-start: 0px;
           padding-inline-start: 0px;
+  margin: 0;
 }
 
 body {
@@ -63,7 +64,7 @@ aside {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 45vw;
+  min-width: 45vw;
   min-width: 200px;
   background: -webkit-gradient(linear, left top, left bottom, from(#84a9bd), color-stop(20%), to(white));
   background: linear-gradient(#84a9bd, 20%, white);
@@ -164,6 +165,7 @@ div.aboutme div.wrapper section {
 
 div.aboutme div.wrapper h3 {
   position: relative;
+  margin: 1vw 1vw 2vw 1vw;
 }
 
 div.aboutme div.wrapper h3:after {
@@ -216,6 +218,86 @@ div.aboutme div.wrapper section:last-child {
   padding-bottom: 1vw;
 }
 
+div.aboutme section.projects div.tiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.aboutme section.projects div.tiles div.example {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 33.13%;
+}
+
+div.aboutme section.projects div.tiles div.example a {
+  max-width: 99%;
+}
+
+div.aboutme section.projects div.tiles div.example h4 {
+  position: absolute;
+  text-align: center;
+  color: bisque;
+  cursor: pointer;
+  text-shadow: black 0 0 10px;
+  z-index: 1;
+}
+
+div.aboutme section.projects div.tiles div.example img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+  -webkit-filter: grayscale(100%) blur(2px);
+          filter: grayscale(100%) blur(2px);
+}
+
+div.aboutme section.projects div.tiles div.example:hover img {
+  -webkit-filter: grayscale(0%) blur(0px);
+          filter: grayscale(0%) blur(0px);
+  -webkit-transition: 1s, 1s;
+  transition: 1s, 1s;
+}
+
+div.aboutme section.projects div.tiles div.example:hover h4 {
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+div.aboutme section.projects div.tiles div.example:not(:hover) img {
+  -webkit-filter: grayscale(100%) blur(2px);
+          filter: grayscale(100%) blur(2px);
+  -webkit-transition: 1s, 1s;
+  transition: 1s, 1s;
+}
+
+div.aboutme section.projects div.tiles div.example:not(:hover) h4 {
+  opacity: 1;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -257,11 +339,6 @@ footer img.rsschool_link {
   height: 15px;
   bottom: -7px;
   right: -10px;
-}
-
-aside div.photo {
-  width: 100%;
-  min-height: 30%;
 }
 
 aside div.contacts li {
