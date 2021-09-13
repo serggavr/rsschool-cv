@@ -100,7 +100,9 @@ aside {
 
 div.aboutme {
     background: linear-gradient($secondcollor, 80%, $firstcollor );
-    padding-bottom: 5vw;
+    padding-bottom: 2vh;
+    // margin-bottom: 2vh;
+    height: 100%;
     div.wrapper {
         position: relative;
         margin-left: 1vw;
@@ -169,6 +171,7 @@ div.aboutme {
             }
         section:last-child {
             padding-bottom: 2vw;
+            margin-bottom: 1vh;
             }
         }
         section.projects {
@@ -234,6 +237,7 @@ footer {
     flex-wrap: nowrap;
     flex-grow: 0;
     width: 80vw;
+    margin-top: 1vh;
     max-width: 1440px;
     border-radius: 33px 0 0 33px;
     background: linear-gradient(to left, $firstcollor, 70%, white);
@@ -305,9 +309,11 @@ aside div.contacts {
     }
 
     div.aboutme {
+        margin-bottom: 0;
         width: 97%;
     }
     footer {
+        margin-top: 0;
         width: 93%;
     }
 }

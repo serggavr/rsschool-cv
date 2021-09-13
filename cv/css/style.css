@@ -126,7 +126,8 @@ aside div li img {
 div.aboutme {
   background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(80%), to(#84a9bd));
   background: linear-gradient(white, 80%, #84a9bd);
-  padding-bottom: 5vw;
+  padding-bottom: 2vh;
+  height: 100%;
 }
 
 div.aboutme div.wrapper {
@@ -216,6 +217,7 @@ div.aboutme div.wrapper div.code_wrapper {
 
 div.aboutme div.wrapper section:last-child {
   padding-bottom: 2vw;
+  margin-bottom: 1vh;
 }
 
 div.aboutme section.projects div.tiles {
@@ -318,6 +320,7 @@ footer {
       -ms-flex-positive: 0;
           flex-grow: 0;
   width: 80vw;
+  margin-top: 1vh;
   max-width: 1440px;
   border-radius: 33px 0 0 33px;
   background: -webkit-gradient(linear, right top, left top, from(#84a9bd), color-stop(70%), to(white));
@@ -403,9 +406,11 @@ aside div.contacts li {
     padding-bottom: 0;
   }
   div.aboutme {
+    margin-bottom: 0;
     width: 97%;
   }
   footer {
+    margin-top: 0;
     width: 93%;
   }
 }
