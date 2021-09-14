@@ -65,8 +65,7 @@ aside {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-width: 45vw;
-  min-width: 200px;
+  min-width: 300px;
   background: -webkit-gradient(linear, left top, left bottom, from(#84a9bd), color-stop(20%), to(white));
   background: linear-gradient(#84a9bd, 20%, white);
 }
@@ -233,9 +232,10 @@ div.aboutme section.projects div.tiles {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin: 0 3vw 0 3vw;
 }
 
-div.aboutme section.projects div.tiles div.example {
+div.aboutme section.projects div.tiles .example {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -252,11 +252,11 @@ div.aboutme section.projects div.tiles div.example {
   max-width: 33.13%;
 }
 
-div.aboutme section.projects div.tiles div.example a {
+div.aboutme section.projects div.tiles .example a {
   max-width: 99%;
 }
 
-div.aboutme section.projects div.tiles div.example h4 {
+div.aboutme section.projects div.tiles .example h4 {
   position: absolute;
   text-align: center;
   color: bisque;
@@ -265,7 +265,7 @@ div.aboutme section.projects div.tiles div.example h4 {
   z-index: 1;
 }
 
-div.aboutme section.projects div.tiles div.example img {
+div.aboutme section.projects div.tiles .example img {
   -o-object-fit: contain;
      object-fit: contain;
   max-width: 100%;
@@ -275,27 +275,27 @@ div.aboutme section.projects div.tiles div.example img {
           filter: grayscale(100%) blur(2px);
 }
 
-div.aboutme section.projects div.tiles div.example:hover img {
+div.aboutme section.projects div.tiles .example:hover img {
   -webkit-filter: grayscale(0%) blur(0px);
           filter: grayscale(0%) blur(0px);
   -webkit-transition: 1s, 1s;
   transition: 1s, 1s;
 }
 
-div.aboutme section.projects div.tiles div.example:hover h4 {
+div.aboutme section.projects div.tiles .example:hover h4 {
   opacity: 0;
   -webkit-transition: 1s;
   transition: 1s;
 }
 
-div.aboutme section.projects div.tiles div.example:not(:hover) img {
+div.aboutme section.projects div.tiles .example:not(:hover) img {
   -webkit-filter: grayscale(100%) blur(2px);
           filter: grayscale(100%) blur(2px);
   -webkit-transition: 1s, 1s;
   transition: 1s, 1s;
 }
 
-div.aboutme section.projects div.tiles div.example:not(:hover) h4 {
+div.aboutme section.projects div.tiles .example:not(:hover) h4 {
   opacity: 1;
   -webkit-transition: 2s;
   transition: 2s;
@@ -376,7 +376,7 @@ aside div.contacts li {
             flex-direction: column;
   }
   aside {
-    width: 97.5%;
+    min-width: 97.5%;
     padding-top: 1vw;
     margin-left: 1vw;
     background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(71%), to(#84a9bd));
@@ -410,6 +410,9 @@ aside div.contacts li {
     margin-bottom: 0;
     width: 97%;
   }
+  div.aboutme div.wrapper section.projects div.tiles {
+    margin: 0 auto;
+  }
   footer {
     margin-top: 0;
     width: 93%;
@@ -428,6 +431,9 @@ aside div.contacts li {
     width: 110px;
     text-align: start;
   }
+  div.aboutme section.projects div.tiles .example {
+    max-width: 49%;
+  }
 }
 
 @media (max-width: 382px) {
@@ -435,5 +441,8 @@ aside div.contacts li {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  div.aboutme section.projects div.tiles .example {
+    max-width: 99%;
   }
 }

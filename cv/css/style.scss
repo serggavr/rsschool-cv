@@ -48,8 +48,7 @@ main {
 aside {
     display: flex;
     flex-direction: column;
-    min-width: 45vw;
-    min-width: 200px;
+    min-width: 300px;
     background: linear-gradient($firstcollor, 20%, $secondcollor);
     & img {
         max-width: 100%;
@@ -181,7 +180,8 @@ div.aboutme {
                 flex-direction: row;
                 flex-wrap: wrap;
                 justify-content:space-around;
-                div.example {
+                margin: 0 3vw 0 3vw;
+                .example {
                     display: flex;
                     flex-direction: row;
                     justify-content: center;
@@ -281,7 +281,7 @@ aside div.contacts {
         flex-direction: column;
     }
     aside {
-        width: 97.5% ;
+        min-width: 97.5% ;
         padding-top: 1vw;
         margin-left: 1vw;
         background: linear-gradient($secondcollor, 71%, $firstcollor );
@@ -312,6 +312,13 @@ aside div.contacts {
     div.aboutme {
         margin-bottom: 0;
         width: 97%;
+        div.wrapper{
+            section.projects {
+                div.tiles {
+                    margin: 0 auto;
+                }
+            }
+        }
     }
     footer {
         margin-top: 0;
@@ -330,10 +337,16 @@ aside div.contacts {
                 }
             }
     }
+    div.aboutme section.projects div.tiles .example {
+        max-width: 49%;
+    }
 }
 
 @media (max-width: 382px) {
     aside div.contacts li {
         justify-content: center;
+    }
+    div.aboutme section.projects div.tiles .example {
+        max-width: 99%;
     }
 }
