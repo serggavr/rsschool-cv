@@ -4,6 +4,19 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: gray;
+}
+
 h1, h2, h3 {
   display: inline-block;
   margin: 1vw;
@@ -30,6 +43,7 @@ body {
   height: 100%;
   margin: 0 auto;
   padding: 0;
+  min-width: 864px;
 }
 
 header {
@@ -41,9 +55,29 @@ header {
           flex-grow: 0;
   width: 81vw;
   max-width: 1440px;
-  min-height: 1vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
   background: -webkit-gradient(linear, right top, left top, from(#84a9bd), color-stop(30%), to(white));
   background: linear-gradient(to left, #84a9bd, 30%, white);
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+header ul li {
+  margin: 10px 20px 10px 0;
+}
+
+header ul li a:visited {
+  color: black;
 }
 
 main {
@@ -284,8 +318,9 @@ div.aboutme section.projects div.tiles .example:hover img {
 
 div.aboutme section.projects div.tiles .example:hover h4 {
   opacity: 0;
-  -webkit-transition: 1s;
-  transition: 1s;
+  font-size: 0;
+  -webkit-transition: 1s, 1s;
+  transition: 1s, 1s;
 }
 
 div.aboutme section.projects div.tiles .example:not(:hover) img {
@@ -359,14 +394,14 @@ aside div.contacts li {
   min-width: 130px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1098px) {
   body {
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
   }
   header {
-    width: 96%;
+    min-width: 100%;
   }
   main {
     width: 99%;

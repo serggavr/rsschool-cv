@@ -3,10 +3,25 @@ $secondcollor: white;
 $inslidetext: #84A9D4;
 $shadow: 0 0 10px rgba(0,0,0,0.5);
 
+// TODO сделать в примерах h3 ссылками
+// TODO добавить меню с якорями
+
 html {
     height: 100%;
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+a:visited {
+    color: gray;
 }
 
 h1, h2, h3 {
@@ -27,6 +42,7 @@ body {
     height: 100%;
     margin: 0 auto;
     padding: 0;
+    min-width: 864px;
 }
 
 header {
@@ -34,8 +50,21 @@ header {
     flex-grow: 0;
     width: 81vw;;
     max-width: 1440px;
-    min-height: 1vh; //TODO
+    // width: 80vw;
+    align-items:center;
+    justify-content: right;
+    // min-height: 1vh; //TODO
     background: linear-gradient(to left, $firstcollor, 30%, white);
+    ul {
+        display: flex;
+        list-style-type: none;
+        li {
+            margin: 10px 20px 10px 0;
+            a:visited {
+                color: black;
+            }
+        }
+    }
 }
 
 main {
@@ -212,7 +241,9 @@ div.aboutme {
                         }
                         h4 {
                             opacity: 0;
-                            transition: 1s;
+                            font-size: 0;
+                            transition: 1s, 1s;
+
                         }
                     }
                     &:not(:hover) {
@@ -267,14 +298,14 @@ aside div.contacts {
     }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1098px) {
     body {
         width: 100%;
         max-width: 100%;
         margin: 0 auto;
     }
     header {
-        width: 96%;
+        min-width: 100%;
     };
     main {
         width: 99%;
