@@ -1,0 +1,483 @@
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: gray;
+}
+
+h1, h2, h3 {
+  display: inline-block;
+  margin: 1vw;
+  text-align: center;
+}
+
+ul {
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+  margin: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  min-width: 864px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  width: 81vw;
+  max-width: 1440px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  background: -webkit-gradient(linear, right top, left top, from(#84a9bd), color-stop(30%), to(white));
+  background: linear-gradient(to left, #84a9bd, 30%, white);
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+header ul li {
+  margin: 10px 20px 10px 0;
+}
+
+header ul li a:visited {
+  color: black;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 80vw;
+  max-width: 1440px;
+}
+
+aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 300px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#84a9bd), color-stop(20%), to(white));
+  background: linear-gradient(#84a9bd, 20%, white);
+}
+
+aside img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+aside div {
+  position: relative;
+  bottom: 2vh;
+  margin-bottom: 2vh;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background-color: #84a9bd;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+aside div::before {
+  width: 0px;
+  height: 0px;
+  content: "";
+  position: absolute;
+}
+
+aside div.toleft {
+  text-align: center;
+  left: 0.5vw;
+  border-bottom-left-radius: 2px;
+}
+
+aside div.toleft::before {
+  border-top: 1vh solid #c7b164;
+  border-right: 0.5vw solid transparent;
+  right: 0;
+  bottom: -1vh;
+}
+
+aside div.toright {
+  text-align: center;
+  right: 0.5vw;
+  border-bottom-right-radius: 2px;
+}
+
+aside div.toright::before {
+  border-top: 1vh solid #c7b164;
+  border-left: 0.5vw solid transparent;
+  left: 0;
+  bottom: -1vh;
+}
+
+aside div li img {
+  margin-right: 0.5vw;
+}
+
+div.aboutme {
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(80%), to(#84a9bd));
+  background: linear-gradient(white, 80%, #84a9bd);
+  padding-bottom: 2vh;
+  height: 100%;
+}
+
+div.aboutme div.wrapper {
+  position: relative;
+  margin-left: 1vw;
+  margin-top: 1vw;
+  padding-top: 1vh;
+  left: 0.5vw;
+  background-color: white;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+div.aboutme div.wrapper::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-top: 1vh solid #c7b164;
+  border-right: 0.5vw solid transparent;
+  right: 0;
+  bottom: -1vh;
+}
+
+div.aboutme div.wrapper section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.aboutme div.wrapper h3 {
+  position: relative;
+  margin: 1vw 1vw 2vw 1vw;
+}
+
+div.aboutme div.wrapper h3:after {
+  display: block;
+  position: absolute;
+  content: "";
+  bottom: -4px;
+  left: 0;
+  width: 100px;
+  height: 3px;
+  background-color: #84a9bd;
+  right: 0;
+  margin: 0 auto;
+}
+
+div.aboutme div.wrapper h3 span {
+  display: inline-block;
+  color: white;
+  -webkit-transform: rotate(7deg);
+          transform: rotate(7deg);
+  text-shadow: 1px 1px 2px #84a9bd, -1px -1px 2px #84a9bd;
+}
+
+div.aboutme div.wrapper p {
+  text-align: start;
+  text-indent: 2vw;
+  margin: 0 3vw 0 3vw;
+}
+
+div.aboutme div.wrapper li {
+  margin: 0 5vw 0 5vw;
+  list-style-type: none;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  padding-left: 2rem;
+}
+
+div.aboutme div.wrapper .education li {
+  background-image: url(https://img.icons8.com/dotty/20/000000/education.png);
+}
+
+div.aboutme div.wrapper div.code_wrapper {
+  margin: 0 3vw 0 3vw;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+div.aboutme div.wrapper section:last-child {
+  padding-bottom: 2vw;
+  margin-bottom: 1vh;
+}
+
+div.aboutme section.projects div.tiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 3vw 0 3vw;
+}
+
+div.aboutme section.projects div.tiles .example {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 33.13%;
+}
+
+div.aboutme section.projects div.tiles .example a {
+  max-width: 99%;
+}
+
+div.aboutme section.projects div.tiles .example h4 {
+  position: absolute;
+  text-align: center;
+  color: bisque;
+  cursor: pointer;
+  text-shadow: black 0 0 10px;
+  z-index: 1;
+}
+
+div.aboutme section.projects div.tiles .example img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+  -webkit-filter: grayscale(100%) blur(2px);
+          filter: grayscale(100%) blur(2px);
+}
+
+div.aboutme section.projects div.tiles .example:hover img {
+  -webkit-filter: grayscale(0%) blur(0px);
+          filter: grayscale(0%) blur(0px);
+  -webkit-transition: 1s, 1s;
+  transition: 1s, 1s;
+}
+
+div.aboutme section.projects div.tiles .example:hover h4 {
+  opacity: 0;
+  font-size: 0;
+  -webkit-transition: 1s, 1s;
+  transition: 1s, 1s;
+}
+
+div.aboutme section.projects div.tiles .example:not(:hover) img {
+  -webkit-filter: grayscale(100%) blur(2px);
+          filter: grayscale(100%) blur(2px);
+  -webkit-transition: 1s, 1s;
+  transition: 1s, 1s;
+}
+
+div.aboutme section.projects div.tiles .example:not(:hover) h4 {
+  opacity: 1;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  width: 80vw;
+  margin-top: 1vh;
+  max-width: 1440px;
+  border-radius: 33px 0 0 33px;
+  background: -webkit-gradient(linear, right top, left top, from(#84a9bd), color-stop(70%), to(white));
+  background: linear-gradient(to left, #84a9bd, 70%, white);
+}
+
+footer time {
+  font-family: system-ui, monospace, serif;
+}
+
+footer div {
+  position: relative;
+}
+
+footer img.rsschool_link {
+  position: absolute;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  height: 15px;
+  bottom: -7px;
+  right: -10px;
+}
+
+aside div.contacts li {
+  padding-left: 1vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  min-width: 130px;
+}
+
+@media (max-width: 1098px) {
+  body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  header {
+    min-width: 100%;
+  }
+  main {
+    width: 99%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  aside {
+    min-width: 97.5%;
+    padding-top: 1vw;
+    margin-left: 1vw;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(71%), to(#84a9bd));
+    background: linear-gradient(white, 71%, #84a9bd);
+  }
+  aside ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  aside img.photo {
+    margin: 0 auto;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  aside div.position h3 {
+    margin-right: -1vw;
+  }
+  aside div:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  div.aboutme {
+    margin-bottom: 0;
+    width: 97%;
+  }
+  div.aboutme div.wrapper section.projects div.tiles {
+    margin: 0 auto;
+  }
+  footer {
+    margin-top: 0;
+    width: 93%;
+  }
+}
+
+@media (max-width: 580px) {
+  aside ul {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  aside ul li {
+    width: 181px;
+  }
+  aside ul li a {
+    width: 110px;
+    text-align: start;
+  }
+  div.aboutme section.projects div.tiles .example {
+    max-width: 49%;
+  }
+}
+
+@media (max-width: 382px) {
+  aside div.contacts li {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  div.aboutme section.projects div.tiles .example {
+    max-width: 99%;
+  }
+}
